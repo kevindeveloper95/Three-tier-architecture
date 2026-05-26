@@ -1,0 +1,22 @@
+aws_region   = "us-east-1"
+environment  = "dev"
+project_name = "ritual-roast"
+vpc_cidr     = "10.0.0.0/16"
+
+# s3_bucket_name = "ritual-roast-dev-<sufijo-unico>"  # vacío = autogenerado project-env-account-region
+
+# web_app_asg_enable = false
+# web_app_asg_min_size / max_size / desired_capacity / health_check_grace_period
+
+# s3_bucket_force_destroy = true
+
+# ec2_public_key = "ssh-ed25519 AAAA..."  # key_pair / EKS
+
+# RDS: por defecto rotación Lambda + secreto mysql-credentials (ver variables.tf).
+# rds_mysql_password = null  # null + sin rotación => secreto maestro rds!db-* de RDS
+# rds_mysql_enable_secret_rotation = true
+# create_mysql_credentials_secret = true
+# rds_mysql_rotation_lambda_deploy_in_vpc = true
+
+# jobberapp_subdomain = "jobberapp.tudominio.com"
+# api_subdomain       = "api.jobberapp.tudominio.com"
