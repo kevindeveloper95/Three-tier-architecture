@@ -1,0 +1,26 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Node (si compilas el frontend fuera de build/)
+node_modules/
+
+# Logs y artefactos locales
+*.log
+.aws/
